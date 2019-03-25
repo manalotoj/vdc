@@ -5,7 +5,7 @@
     "admin-password": {
         "reference": {
             "keyVault": {
-                "id": "/subscriptions/${shared-services.subscription-id}/resourceGroups/${general.organization-name}-${shared-services.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${shared-services.deployment-name}-kv"
+                "id": "/subscriptions/${shared-services.subscription-id}/resourceGroups/${general.organization-name}-${shared-services.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${shared-services.deployment-name}jqm-kv"
             },
             "secretName": "${shared-services.vm-configuration.local-admin-user}"
         }
@@ -30,7 +30,7 @@
         "value": 1
     },
     "windows-virtualMachine-size": {
-        "value": "Standard_DS2_v2"
+        "value": "Standard_D2_v3"
     },
     "linux-os-image": {
         "value": {
@@ -47,7 +47,7 @@
         "value": 1
     },
     "linux-virtualMachine-size": {
-        "value": "Standard_DS2_v2"
+        "value": "Standard_D2_v3"
     },
     "linux-sequence-version": {
         "value": "a37ae7a2115d"

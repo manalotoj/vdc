@@ -5,7 +5,7 @@
     "admin-password": {
         "reference": {
             "keyVault": {
-                "id": "/subscriptions/${shared-services.subscription-id}/resourceGroups/${general.organization-name}-${shared-services.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${shared-services.deployment-name}-kv"
+                "id": "/subscriptions/${shared-services.subscription-id}/resourceGroups/${general.organization-name}-${shared-services.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${shared-services.deployment-name}jqm-kv"
             },
             "secretName": "${shared-services.vm-configuration.local-admin-user}"
         }
@@ -30,7 +30,7 @@
         "value": 2
     },
     "virtualMachine-size": {
-        "value": "Standard_DS2_v2"
+        "value": "Standard_D2_v3"
     },
     "adds-address-start": {
         "value": "${shared-services.adds.vm-ip-address-start}"
@@ -56,7 +56,7 @@
     "domain-admin-password": {
         "reference": {
             "keyVault": {
-                "id": "/subscriptions/${shared-services.subscription-id}/resourceGroups/${general.organization-name}-${shared-services.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${shared-services.deployment-name}-kv"
+                "id": "/subscriptions/${shared-services.subscription-id}/resourceGroups/${general.organization-name}-${shared-services.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${shared-services.deployment-name}jqm-kv"
             },
             "secretName": "${on-premises.active-directory.domain-admin-user}"
         }

@@ -5,7 +5,7 @@
     "admin-password": {
         "reference": {
             "keyVault": {
-                "id": "/subscriptions/${workload.subscription-id}/resourceGroups/${general.organization-name}-${workload.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${workload.deployment-name}-kv"
+                "id": "/subscriptions/${workload.subscription-id}/resourceGroups/${general.organization-name}-${workload.deployment-name}-kv-rg/providers/Microsoft.KeyVault/vaults/${general.organization-name}-${workload.deployment-name}jqm-kv"
             },
             "secretName": "${workload.azure-sql-configuration.admin-user}"
         }
